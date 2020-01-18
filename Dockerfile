@@ -17,6 +17,7 @@ RUN apt-get update && apt-get upgrade -y && apt-get install -y --no-install-reco
         fonts-vlgothic \
         texlive-full \
         plantuml \
+        graphviz \
         python3-sphinx \
     && pip3 install \
         sphinx_rtd_theme \
